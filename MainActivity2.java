@@ -14,24 +14,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 
-import android.widget.Toast;
-import android.widget.VideoView;
- 
-public class MainActivity extends Activity {
- 
-    // Activity request codes
 
- 
-    // directory name to store captured images and videos
-
- 
-    private ImageView imgPreview;
-    private VideoView videoPreview;
-    private Button btnCapturePicture, btnRecordVideo;
- 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
  
         imgPreview = (ImageView) findViewById(R.id.imgPreview);
